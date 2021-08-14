@@ -9,7 +9,7 @@ public class Prob_1 {
         System.out.print("Enter a year to check weather it's a leap year or not:");
         int year = input.nextInt();
 
-        boolean isLeapYear = falnse;
+        boolean isLeapYear = false;
 
         if (year % 4 == 0) {
             if (year % 100 == 0) {
